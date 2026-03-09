@@ -40,7 +40,7 @@ Website Himpunan Mahasiswa Manajemen Informatika (Himatika) POLINEMA Kampus Kedi
 
 ---
 
-## 📂 Penjelasan Fitur
+## Penjelasan Fitur
 
 1. **Beranda Utama**: Desain landing page dengan identitas warna Himatika.
 2. **Tentang Kami**: Informasi lengkap mengenai tujuan organisasi.
@@ -49,7 +49,7 @@ Website Himpunan Mahasiswa Manajemen Informatika (Himatika) POLINEMA Kampus Kedi
 
 ---
 
-## ⚙️ Cara Menjalankan Proyek
+## Cara Menjalankan Proyek
 
 Ikuti perintah berikut secara berurutan di terminal/CMD:
 
@@ -61,7 +61,5 @@ Ikuti perintah berikut secara berurutan di terminal/CMD:
 | 4 | `php artisan key:generate` | Generate app key |
 | 5 | `npm run dev` | Jalankan Vite (Terminal 1) |
 | 6 | `php artisan serve` | Jalankan server (Terminal 2) |
-
-> **Note:** Kamu bisa skip langkah migrasi database (`php artisan migrate`) karena proyek ini pada dasarnya **website statis** — hanya menampilkan view tanpa ada interaksi database.
 
 Setelah semua langkah selesai, buka browser ke **http://127.0.0.1:8000** dan website langsung jalan! 
