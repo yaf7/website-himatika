@@ -7,53 +7,61 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+#  Website Himatika POLINEMA Kampus Kediri
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Website Himpunan Mahasiswa Manajemen Informatika (Himatika) POLINEMA Kampus Kediri.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## Preview Website
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1e167915-8d6f-426c-b510-efd079e4efde" width="100%" alt="Hero Section">
+</p>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<table style="width: 100%;">
+  <tr>
+    <td width="50%">
+      <img src="https://github.com/user-attachments/assets/c917d060-c47e-49ae-84d6-8a8b7f296597" alt="Tentang Kami">
+      <p align="center"><i>Halaman Deskripsi & Tujuan</i></p>
+    </td>
+    <td width="50%">
+      <img src="https://github.com/user-attachments/assets/8995bafe-0f67-4393-8db0-39c4601fde09" alt="Struktur BPH">
+      <p align="center"><i>Halaman Struktur Pengurus</i></p>
+    </td>
+  </tr>
+</table>
 
-## Laravel Sponsors
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1ef8f0c8-f794-4855-b618-63e5b9dd5e17" width="100%" alt="Departemen SDM">
+  <br><i>Halaman Anggota Departemen</i>
+</p>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+---
 
-### Premium Partners
+## 📂 Penjelasan Fitur
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+1. **Beranda Utama**: Desain landing page dengan identitas warna Himatika.
+2. **Tentang Kami**: Informasi lengkap mengenai tujuan organisasi.
+3. **Struktur Organisasi**: Menampilkan profil Pengurus.
+4. **Detail Departemen**: Menampilkan Informasi mengenai divisi (seperti SDM) dan daftar anggota per angkatan.
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## ⚙️ Cara Menjalankan Proyek
 
-## Code of Conduct
+Ikuti perintah berikut secara berurutan di terminal/CMD:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+| No | Perintah | Keterangan |
+|:--:|:---|:---|
+| 1 | `composer install` | Install dependensi PHP |
+| 2 | `npm install` | Install dependensi JS |
+| 3 | `cp .env.example .env` | Buat file konfigurasi (jika belum ada) |
+| 4 | `php artisan key:generate` | Generate app key |
+| 5 | `npm run dev` | Jalankan Vite (Terminal 1) |
+| 6 | `php artisan serve` | Jalankan server (Terminal 2) |
 
-## Security Vulnerabilities
+> **Note:** Kamu bisa skip langkah migrasi database (`php artisan migrate`) karena proyek ini pada dasarnya **website statis** — hanya menampilkan view tanpa ada interaksi database.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Setelah semua langkah selesai, buka browser ke **http://127.0.0.1:8000** dan website langsung jalan! 
