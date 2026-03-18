@@ -63,3 +63,5 @@ Ikuti perintah berikut secara berurutan di terminal/CMD:
 | 6 | `php artisan serve` | Jalankan server (Terminal 2) |
 
 Setelah semua langkah selesai, buka browser ke **http://127.0.0.1:8000** dan website langsung jalan! 
+
+Project ini bersifat Private-Use untuk organisasi HIMATIKA POLINEMA PSDKU Kediri. Pengurus diperbolehkan memodifikasi kodenya untuk keperluan organisasi.
