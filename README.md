@@ -67,3 +67,5 @@ Setelah semua langkah selesai, buka browser ke **http://127.0.0.1:8000** dan web
 Project ini bersifat Private-Use untuk organisasi HIMATIKA POLINEMA PSDKU Kediri. Pengurus diperbolehkan memodifikasi kodenya untuk keperluan organisasi.
 
 Proyek ini sedang dikembangkan Deyafa Arsetya
+
+HIMATIKA POLITEKNIK NEGERI MALANG PSDKU KEDIRI
